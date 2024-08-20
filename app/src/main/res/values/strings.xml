@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SagaraTest</string>
+    <string name="desc">this is image</string>
+    <string name="tv_location">Lokasi</string>
+    <string name="celcius">31 °C</string>
+    <string name="next_3_days">Next 3 days</string>
+</resources>
