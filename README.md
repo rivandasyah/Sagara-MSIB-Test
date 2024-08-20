@@ -1,33 +1,37 @@
 # sagara-mobile-msib-test
 
-Tujuan:
-Mengembangkan aplikasi mobile dasar menggunakan React Native atau Flutter untuk menunjukkan keterampilan dasar Anda dalam pengembangan aplikasi mobile, terutama dalam integrasi API dan desain antarmuka pengguna.
+## Weather App
 
-Konsep Aplikasi:
-Membuat aplikasi "Weather Forecast" (Prakiraan Cuaca).
+Aplikasi **Weather App** adalah aplikasi Android yang dibangun menggunakan bahasa Kotlin untuk menampilkan informasi cuaca saat ini serta prakiraan cuaca untuk tiga hari ke depan. Aplikasi ini memanfaatkan **OpenWeatherMap API** untuk mengambil data cuaca dari berbagai lokasi di seluruh dunia.
 
-Fitur Utama:
-1. Tampilan Cuaca:
-- Menampilkan kondisi cuaca saat ini.
-- Menampilkan prakiraan cuaca untuk 3 hari ke depan.
+## Fitur Utama
 
-2. Integrasi API:
-- Menggunakan API cuaca publik (OpenWeatherMap https://openweathermap.org/api) untuk mengambil dan menampilkan data cuaca.
+- **Informasi Cuaca Saat Ini:** Menampilkan suhu saat ini di lokasi pengguna.
+- **Prakiraan Cuaca 3 Hari:** Menampilkan prakiraan suhu untuk tiga hari ke depan.
+- **Pilihan Lokasi:** Menggunakan lokasi perangkat untuk menampilkan data cuaca yang relevan.
+- **Izin Lokasi:** Meminta izin lokasi kepada pengguna saat aplikasi pertama kali dibuka.
 
-Persyaratan:
-- Integrasi API: Mengintegrasikan API yang dipilih untuk mengambil dan menampilkan data cuaca saat ini serta prakiraan cuaca.
-- Penanganan Error: Mengimplementasikan penanganan error dasar untuk mengelola masalah seperti kegagalan permintaan API atau kurangnya koneksi internet.
-- Kualitas Kode: Penerapan SOLID Programming
-- Desain UI/UX: Sederhana, intuitif, dan menarik secara visual.
+## Urutan Penggunaan Aplikasi
 
-Dokumentasi:
-- Menyertakan file README dengan instruksi tentang cara mengatur dan menjalankan aplikasi.
-- Kirimkan kode sumber lengkap melalui link repository GitHub.
-- Pastikan aplikasi mudah diatur dan dijalankan, dengan instruksi pengaturan yang jelas dalam file README.
+1. **Membuka Aplikasi**
+   - Ketika pengguna pertama kali membuka aplikasi, pengguna akan diminta untuk memberikan izin akses lokasi. Pengguna dapat memilih untuk memberikan izin saat menggunakan aplikasi, hanya sekali, atau menolak akses.
+![Weather App](https://github.com/user-attachments/assets/75c02de9-78a4-4fb4-aac4-0266bd3c102d)
 
-Kriteria Penilaian:
-1. Organisasi & Kejelasan Kode, struktur dan organisasi kode
-2. Error handling
-3. UI/UX yang sederhana dan efektif.
+2. **Menampilkan Data Cuaca**
+   - Setelah izin lokasi diberikan, aplikasi akan mengambil data cuaca berdasarkan lokasi perangkat dan menampilkannya di layar utama. Informasi yang ditampilkan meliputi:
+     - Nama lokasi
+     - Suhu saat ini
+     - Prakiraan suhu untuk tiga hari ke depan.
+![Weather App](https://github.com/user-attachments/assets/71217e64-8803-4ea2-9c75-34ae17ced34f)
 
-Deliverables silakan fork repository ini dan submit link repository hasil pengerjaan Anda ke [https://bit.ly/study-case-mobile-developer-msib](https://bit.ly/study-case-mobile-developer-msib).
+## Teknologi yang Digunakan
+
+- **Bahasa Pemrograman:** Kotlin
+- **OpenWeatherMap:** [OpenWeatherMap API](https://openweathermap.org/api)
+- **Platform:** Android
+
+## Cara Menggunakan
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/rivandasyah/Sagara-MSIB-Test.git
